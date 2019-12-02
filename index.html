@@ -16,30 +16,35 @@
     <script src="js/scripts.js"></script>
     <p>These are Ghanian names that are given to children according  the day of the week your born.Names in Ghana are driven from the day of thw week</p>
     </div>
-    <form action="">
+    <div class="card">
+        <div class="card-body">
+                <form action="">
+                        <div>
+                            <label class="y">year of birth</label>
+                           <input type="number" placeholder="yy" name="Year">
+                       </div>
+                       <div>
+                           <label class="m">month</label>
+                               <input type="number" placeholder="mm" name="month">
+                       </div>
+                       <div>
+                           <label class="d">date</label>
+                               <input type="number" placeholder="dd" name="date"> 
+                       </div>
+                       <div id="gender" class="checkbox">
+                           female<input type="radio" value="female" id="female" name="gender">
+                           male<input type="radio" value="male" id="male" name="gender">
+                       
+                       </div>
+                       <div class="button">
+                           <input type="button" value="submit" onclick="getname()">
+                       
+                       </div>
+                           </form>
+        </div>
+
+    </div>
     
- <div>
-     <label class="y">year of birth</label>
-    <input type="number" placeholder="yy" name="Year">
-</div>
-<div>
-    <label class="m">month</label>
-        <input type="number" placeholder="mm" name="month">
-</div>
-<div>
-    <label class="d">date</label>
-        <input type="number" placeholder="dd" name="date"> 
-</div>
-<div id="gender" class="checkbox">
-    female<input type="radio" value="female" id="female" name="gender">
-    male<input type="radio" value="male" id="male" name="gender">
-
-</div>
-<div class="button">
-    <input type="button" value="submit" onclick="getname()">
-
-</div>
-    </form>
 
 </div>
 </div>
