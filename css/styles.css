@@ -1,9 +1,20 @@
-.form input{
-    width: 100%;
-}
 body{
-    background-color: black;
+  background-image: url("https://cdn.countryflags.com/thumbs/ghana/flag-800.png");
 }
-.action{
-    text-align: center;
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  #show{
+    font-size: 29px;
+    padding: 15px;
+  }
+.container{
+  background-color: rgba(0, 0, 0, 0.7);
 }
