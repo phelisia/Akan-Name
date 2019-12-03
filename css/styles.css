@@ -15,9 +15,9 @@ input[type=text], select {
     font-size: 29px;
     padding: 15px;
   }
-.container{
-  background-color: rgba(0, 0, 0, 0.7);
-}
-cc{
-  font-size: 34px;
+  .container{
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  cc{
+    font-size: 34px;
 }
